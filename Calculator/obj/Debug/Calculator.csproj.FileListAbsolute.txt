@@ -1,0 +1,7 @@
+C:\arthi\dotNet.practise\Assignments\Assignment-1\Calculator\bin\Debug\Calculator.exe.config
+C:\arthi\dotNet.practise\Assignments\Assignment-1\Calculator\bin\Debug\Calculator.exe
+C:\arthi\dotNet.practise\Assignments\Assignment-1\Calculator\bin\Debug\Calculator.pdb
+C:\arthi\dotNet.practise\Assignments\Assignment-1\Calculator\obj\Debug\Calculator.csproj.AssemblyReference.cache
+C:\arthi\dotNet.practise\Assignments\Assignment-1\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+C:\arthi\dotNet.practise\Assignments\Assignment-1\Calculator\obj\Debug\Calculator.exe
+C:\arthi\dotNet.practise\Assignments\Assignment-1\Calculator\obj\Debug\Calculator.pdb

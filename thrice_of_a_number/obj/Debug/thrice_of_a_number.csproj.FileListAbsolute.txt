@@ -1,0 +1,7 @@
+C:\arthi\dotNet.practise\Assignments\Assignment-1\thrice_of_a_number\bin\Debug\thrice_of_a_number.exe.config
+C:\arthi\dotNet.practise\Assignments\Assignment-1\thrice_of_a_number\bin\Debug\thrice_of_a_number.exe
+C:\arthi\dotNet.practise\Assignments\Assignment-1\thrice_of_a_number\bin\Debug\thrice_of_a_number.pdb
+C:\arthi\dotNet.practise\Assignments\Assignment-1\thrice_of_a_number\obj\Debug\thrice_of_a_number.csproj.AssemblyReference.cache
+C:\arthi\dotNet.practise\Assignments\Assignment-1\thrice_of_a_number\obj\Debug\thrice_of_a_number.csproj.CoreCompileInputs.cache
+C:\arthi\dotNet.practise\Assignments\Assignment-1\thrice_of_a_number\obj\Debug\thrice_of_a_number.exe
+C:\arthi\dotNet.practise\Assignments\Assignment-1\thrice_of_a_number\obj\Debug\thrice_of_a_number.pdb
