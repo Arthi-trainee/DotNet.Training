@@ -1,0 +1,7 @@
+C:\arthi\dotNet.practise\Assignments\Assignment-1\Multiplication Table\bin\Debug\Multiplication Table.exe.config
+C:\arthi\dotNet.practise\Assignments\Assignment-1\Multiplication Table\bin\Debug\Multiplication Table.exe
+C:\arthi\dotNet.practise\Assignments\Assignment-1\Multiplication Table\bin\Debug\Multiplication Table.pdb
+C:\arthi\dotNet.practise\Assignments\Assignment-1\Multiplication Table\obj\Debug\Multiplication Table.csproj.AssemblyReference.cache
+C:\arthi\dotNet.practise\Assignments\Assignment-1\Multiplication Table\obj\Debug\Multiplication Table.csproj.CoreCompileInputs.cache
+C:\arthi\dotNet.practise\Assignments\Assignment-1\Multiplication Table\obj\Debug\Multiplication Table.exe
+C:\arthi\dotNet.practise\Assignments\Assignment-1\Multiplication Table\obj\Debug\Multiplication Table.pdb

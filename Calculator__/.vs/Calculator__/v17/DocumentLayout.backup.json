@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\arthi\\dotNet.practise\\Assignments\\Assignment-1\\Calculator__\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{66BCE54D-2B63-4B3B-8617-E4BD71B82E3E}|Calculator__.csproj|c:\\arthi\\dotnet.practise\\assignments\\assignment-1\\calculator__\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66BCE54D-2B63-4B3B-8617-E4BD71B82E3E}|Calculator__.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\arthi\\dotNet.practise\\Assignments\\Assignment-1\\Calculator__\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\arthi\\dotNet.practise\\Assignments\\Assignment-1\\Calculator__\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T16:59:00.612Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
