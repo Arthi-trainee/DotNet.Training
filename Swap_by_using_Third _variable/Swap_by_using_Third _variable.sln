@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swap_by_using_Third _variable", "Swap_by_using_Third _variable.csproj", "{02631229-FB39-4D4B-87A8-D55C2B2D060A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02631229-FB39-4D4B-87A8-D55C2B2D060A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02631229-FB39-4D4B-87A8-D55C2B2D060A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02631229-FB39-4D4B-87A8-D55C2B2D060A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02631229-FB39-4D4B-87A8-D55C2B2D060A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC9AD43F-2236-407D-A8C4-6972325E9944}
+	EndGlobalSection
+EndGlobal

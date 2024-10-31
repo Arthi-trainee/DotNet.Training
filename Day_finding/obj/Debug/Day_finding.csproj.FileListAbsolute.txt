@@ -1,0 +1,7 @@
+C:\arthi\dotNet.practise\Assignments\Assignments\Day_finding\bin\Debug\Day_finding.exe.config
+C:\arthi\dotNet.practise\Assignments\Assignments\Day_finding\bin\Debug\Day_finding.exe
+C:\arthi\dotNet.practise\Assignments\Assignments\Day_finding\bin\Debug\Day_finding.pdb
+C:\arthi\dotNet.practise\Assignments\Assignments\Day_finding\obj\Debug\Day_finding.csproj.AssemblyReference.cache
+C:\arthi\dotNet.practise\Assignments\Assignments\Day_finding\obj\Debug\Day_finding.csproj.CoreCompileInputs.cache
+C:\arthi\dotNet.practise\Assignments\Assignments\Day_finding\obj\Debug\Day_finding.exe
+C:\arthi\dotNet.practise\Assignments\Assignments\Day_finding\obj\Debug\Day_finding.pdb

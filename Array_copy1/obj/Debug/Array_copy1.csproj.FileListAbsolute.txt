@@ -1,0 +1,7 @@
+C:\arthi\dotNet.practise\Assignments\Assignments\Array_copy1\bin\Debug\Array_copy1.exe.config
+C:\arthi\dotNet.practise\Assignments\Assignments\Array_copy1\bin\Debug\Array_copy1.exe
+C:\arthi\dotNet.practise\Assignments\Assignments\Array_copy1\bin\Debug\Array_copy1.pdb
+C:\arthi\dotNet.practise\Assignments\Assignments\Array_copy1\obj\Debug\Array_copy1.csproj.AssemblyReference.cache
+C:\arthi\dotNet.practise\Assignments\Assignments\Array_copy1\obj\Debug\Array_copy1.csproj.CoreCompileInputs.cache
+C:\arthi\dotNet.practise\Assignments\Assignments\Array_copy1\obj\Debug\Array_copy1.exe
+C:\arthi\dotNet.practise\Assignments\Assignments\Array_copy1\obj\Debug\Array_copy1.pdb
