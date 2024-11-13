@@ -1,89 +1,82 @@
 ﻿using System;
-
 using System.Collections.Generic;
-
 using System.Linq;
-
 using System.Text;
-
 using System.Threading.Tasks;
 
-namespace Assesment_2
-
+namespace Assessment_2
 {
-
     abstract class Student
-
     {
-
-        public abstract void Ispassed(bool grade);
-
-        public void fail()
-
+        public string Name { get; set; }
+        public int StudentId { get; set; }
+        public double Grade { get; set; }
+        public Student(string name, int studentId, double grade)
         {
+            Name = name;
+            StudentId = studentId;
+            Grade = grade;
+        }
+        public abstract bool IsPassed(double grade);
 
-            Console.WriteLine("Student was failed");
-
+    }
+    class UnderGraduate : Student
+    {
+        public UnderGraduate(string name, int studentId, double grade) : base(name, studentId, grade) { }
+        public override bool IsPassed(double grade)
+        {
+            return grade >= 70.0;
         }
 
     }
-
-    class Details : Student
-
+    class Graduate : Student
     {
-
-        public string Student_name;
-
-        public int Student_id;
-
-        public bool Grade = true;
-
-        public bool grade;
-
-        void Getdata()
-
+        public Graduate(string name, int studentId, double grade) : base(name, studentId, grade) { }
+        public override bool IsPassed(double grade)
         {
-
-            Console.Write("Enter student name : ");
-
-            Student_name = Console.ReadLine();
-
-            Console.Write("Enter student id : ");
-
-            Student_id = Convert.ToInt32(Console.ReadLine());
-
-
+            return grade >= 80.0;
         }
 
-        public override void Ispassed(bool grade)
-
-        {
-
-            if (Grade == this.grade) Console.WriteLine("Student is Pass");
-
-            else fail();
-
-        }
-
+    }
+    class Check_Passed_Or_Not
+    {
         static void Main()
-
         {
+            Console.WriteLine("enter student type (under graduate or Graduate)");
+            string type = Console.ReadLine();
+            Console.WriteLine("enter the name");
+            string name = Console.ReadLine();
+            Console.WriteLine("enter student Id : ");
+            int studentId = int.Parse(Console.ReadLine());
+            Console.WriteLine("enter the grade: ");
+            double grade = double.Parse(Console.ReadLine());
+            Student student;
+            if (type.ToLower() == "undergraduate")
+            {
+                student = new UnderGraduate(name, studentId, grade);
 
-            Console.Write("Enter student grade : ");
+            }
+            else if (type.ToLower() == "graduate")
+            {
+                student = new Graduate(name, studentId, grade);
 
-            bool grade = Convert.ToBoolean(Console.ReadLine());
-
-            Details d1 = new Details();
-
-            d1.Getdata();
-
-            d1.Ispassed(grade);
-
-            Console.ReadLine();
+            }
+            else
+            {
+                Console.WriteLine("Invalid student type");
+                return;
+            }
+            Console.WriteLine($"{student.Name}(ID: {student.StudentId})has grade{ student.Grade}");
+            if (student.IsPassed(student.Grade))
+            {
+                Console.WriteLine("the student has passed");
+            }
+            else
+            {
+                Console.WriteLine("the student is not passed");
+            }
+            Console.Read();
 
         }
-
     }
-
 }
-
