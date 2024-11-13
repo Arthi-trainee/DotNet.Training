@@ -12,12 +12,6 @@ namespace Assesment_2
 
 {
 
-    // Create an Abstract class Student with  Name, StudentId, Grade as
-
-    // members and also an abstract method Boolean Ispassed(grade)
-
-    // which takes grade as an input and checks whether student passed the course or not
-
     abstract class Student
 
     {
