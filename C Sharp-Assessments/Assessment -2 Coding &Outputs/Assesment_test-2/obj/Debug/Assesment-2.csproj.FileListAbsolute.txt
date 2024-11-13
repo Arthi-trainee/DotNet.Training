@@ -1,0 +1,7 @@
+C:\arthi_1\C Sharp-Assessments\Assessment -2 Coding &Outputs\Assesment-2\Assesment-2\bin\Debug\Assesment-2.exe.config
+C:\arthi_1\C Sharp-Assessments\Assessment -2 Coding &Outputs\Assesment-2\Assesment-2\bin\Debug\Assesment-2.exe
+C:\arthi_1\C Sharp-Assessments\Assessment -2 Coding &Outputs\Assesment-2\Assesment-2\bin\Debug\Assesment-2.pdb
+C:\arthi_1\C Sharp-Assessments\Assessment -2 Coding &Outputs\Assesment-2\Assesment-2\obj\Debug\Assesment-2.csproj.AssemblyReference.cache
+C:\arthi_1\C Sharp-Assessments\Assessment -2 Coding &Outputs\Assesment-2\Assesment-2\obj\Debug\Assesment-2.csproj.CoreCompileInputs.cache
+C:\arthi_1\C Sharp-Assessments\Assessment -2 Coding &Outputs\Assesment-2\Assesment-2\obj\Debug\Assesment-2.exe
+C:\arthi_1\C Sharp-Assessments\Assessment -2 Coding &Outputs\Assesment-2\Assesment-2\obj\Debug\Assesment-2.pdb
