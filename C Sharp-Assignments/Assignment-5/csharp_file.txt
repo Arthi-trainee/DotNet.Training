@@ -1,0 +1,1 @@
+csharp is a one of the oops and structured oriented programming language.c consists of different types of primitive and non primitive data types.csharp is used to develop desktop and web based applications.it consists of different inbuilt methods which will make coding easier.

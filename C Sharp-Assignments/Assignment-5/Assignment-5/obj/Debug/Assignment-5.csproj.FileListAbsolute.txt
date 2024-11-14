@@ -1,0 +1,7 @@
+C:\arthi_1\C Sharp-Assignments\Assignment-5\Assignment-5\bin\Debug\Assignment-5.exe.config
+C:\arthi_1\C Sharp-Assignments\Assignment-5\Assignment-5\bin\Debug\Assignment-5.exe
+C:\arthi_1\C Sharp-Assignments\Assignment-5\Assignment-5\bin\Debug\Assignment-5.pdb
+C:\arthi_1\C Sharp-Assignments\Assignment-5\Assignment-5\obj\Debug\Assignment-5.csproj.AssemblyReference.cache
+C:\arthi_1\C Sharp-Assignments\Assignment-5\Assignment-5\obj\Debug\Assignment-5.csproj.CoreCompileInputs.cache
+C:\arthi_1\C Sharp-Assignments\Assignment-5\Assignment-5\obj\Debug\Assignment-5.exe
+C:\arthi_1\C Sharp-Assignments\Assignment-5\Assignment-5\obj\Debug\Assignment-5.pdb
