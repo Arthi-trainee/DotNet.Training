@@ -1,0 +1,10 @@
+C:\arthi_1\C Sharp-Assignments\Assignment-6\Calc\bin\Debug\Calc.exe.config
+C:\arthi_1\C Sharp-Assignments\Assignment-6\Calc\bin\Debug\Calc.exe
+C:\arthi_1\C Sharp-Assignments\Assignment-6\Calc\bin\Debug\Calc.pdb
+C:\arthi_1\C Sharp-Assignments\Assignment-6\Calc\bin\Debug\CalculatorLibrary.dll
+C:\arthi_1\C Sharp-Assignments\Assignment-6\Calc\bin\Debug\CalculatorLibrary.pdb
+C:\arthi_1\C Sharp-Assignments\Assignment-6\Calc\obj\Debug\Calc.csproj.AssemblyReference.cache
+C:\arthi_1\C Sharp-Assignments\Assignment-6\Calc\obj\Debug\Calc.csproj.CoreCompileInputs.cache
+C:\arthi_1\C Sharp-Assignments\Assignment-6\Calc\obj\Debug\Calc.csproj.CopyComplete
+C:\arthi_1\C Sharp-Assignments\Assignment-6\Calc\obj\Debug\Calc.exe
+C:\arthi_1\C Sharp-Assignments\Assignment-6\Calc\obj\Debug\Calc.pdb

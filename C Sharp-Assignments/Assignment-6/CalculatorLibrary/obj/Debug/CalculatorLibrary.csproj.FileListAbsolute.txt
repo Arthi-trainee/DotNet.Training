@@ -1,0 +1,5 @@
+C:\arthi_1\C Sharp-Assignments\Assignment-6\CalculatorLibrary\bin\Debug\CalculatorLibrary.dll
+C:\arthi_1\C Sharp-Assignments\Assignment-6\CalculatorLibrary\bin\Debug\CalculatorLibrary.pdb
+C:\arthi_1\C Sharp-Assignments\Assignment-6\CalculatorLibrary\obj\Debug\CalculatorLibrary.csproj.CoreCompileInputs.cache
+C:\arthi_1\C Sharp-Assignments\Assignment-6\CalculatorLibrary\obj\Debug\CalculatorLibrary.dll
+C:\arthi_1\C Sharp-Assignments\Assignment-6\CalculatorLibrary\obj\Debug\CalculatorLibrary.pdb
