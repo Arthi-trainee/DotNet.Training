@@ -1,0 +1,7 @@
+C:\arthi_1\C Sharp-Assessments\Assessment-3\Assessment-3\bin\Debug\Assessment-3.exe.config
+C:\arthi_1\C Sharp-Assessments\Assessment-3\Assessment-3\bin\Debug\Assessment-3.exe
+C:\arthi_1\C Sharp-Assessments\Assessment-3\Assessment-3\bin\Debug\Assessment-3.pdb
+C:\arthi_1\C Sharp-Assessments\Assessment-3\Assessment-3\obj\Debug\Assessment-3.csproj.AssemblyReference.cache
+C:\arthi_1\C Sharp-Assessments\Assessment-3\Assessment-3\obj\Debug\Assessment-3.csproj.CoreCompileInputs.cache
+C:\arthi_1\C Sharp-Assessments\Assessment-3\Assessment-3\obj\Debug\Assessment-3.exe
+C:\arthi_1\C Sharp-Assessments\Assessment-3\Assessment-3\obj\Debug\Assessment-3.pdb
