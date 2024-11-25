@@ -42,7 +42,7 @@ Dname varchar not null,
 loc varchar
 )
 
-Alter table DEPT                   --For changing varchar size i have used alter command
+Alter table DEPT                   --For changing varchar size to 50  i have used alter command
 Alter  COLUMN Dname varchar(50)
 Alter table DEPT
 Alter  COLUMN loc varchar(50)
