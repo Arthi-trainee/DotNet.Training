@@ -56,10 +56,10 @@ values (10,'ACCOUNTING','NEW YORK' ),
 
 
 select * from DEPT              --Fetching details of DEPT
-sp_help DEPT                    --Describing DEpt table
+sp_help DEPT                    --Describing DEPT table
 
                             
-							          Assignment-2   (QUERIES)
+							    Assignment-2   (QUERIES)
 
 
 select Ename from Emp where ename like 'A%'     --1.fetching employeee name starting with A
@@ -81,34 +81,40 @@ where job='Clerk'
 select job,avg(sal) as Avg_Salary ,count(*) as EMP_Count   --6.grouping based on job
 from EMP
 Group by job;
+ 
+select Ename from EMP                         --7.fetching empnames with highest and lowest salary
+where Sal=(select max(Sal) from EMP)
+select ename from emp 
+where sal=(select min(sal) from Emp)
 
-select d.Dname                                 -- 7.fetching department name which doesnt have employees
+
+select d.Dname                                 -- 8.fetching department name which doesnt have employees
 from dept d Left join EMP e 
 on d.Deptno=e.Deptno
 where e.Deptno IS NULL
 
-select * from emp                             --8.fetching details who is analyst and sal >1200 as well as deptno is 20
+select * from emp                             --9.fetching details who is analyst and sal >1200 as well as deptno is 20
 where job='Analyst' and sal>1200 and deptno=20
 
-select e.Ename,e.Sal,e.Deptno,sum(e1.Sal) as Total_sal  --9.fetching salaries,employee names and total salary based on their departemnt using self join
+select e.Ename,e.Sal,e.Deptno,sum(e1.Sal) as Total_sal  --10.fetching salaries,employee names and total salary based on their departemnt using self join
 from emp e join emp e1
 on e.Deptno=e1.Deptno
 group by e.ename,e.sal,e.deptno
 
-select ename sal from emp                     --10.fetching sal of miller and smith using in opearator
+select ename sal from emp                     --11.fetching sal of miller and smith using in opearator
 where ename in ('smith','miller')
 
-select ename from EMP                        --11.fetching employee names whose names starts with A and M
+select ename from EMP                        --12.fetching employee names whose names starts with A and M
 where Ename like 'A%' or  Ename like 'M%'
 
-select ename,sal,sal*12 as Smith_Annual_sal   --12.fetching annual salary of smith
+select ename,sal,sal*12 as Smith_Annual_sal   --13.fetching annual salary of smith
 from emp
 where ename='Smith'
 
-select ename,sal from emp                     --13.fetching Employee names and salaries whose salary is not in between 1500 and 2850
+select ename,sal from emp                     --14.fetching Employee names and salaries whose salary is not in between 1500 and 2850
 where sal not between 1500 and 2850
 
-select mgr_id,count(*) as Emp_Count           --14.fetching managers who have more than 2 employees reporting to them
+select mgr_id,count(*) as Emp_Count           --15.fetching managers who have more than 2 employees reporting to them
 from emp group by mgr_id
 having  count(*)>2
 
