@@ -10,7 +10,7 @@ Sal int ,
 Comm int,
 Deptno int references DEPT(Deptno)
 )
-Alter table Emp                       --For changing varchar size i have used alter command
+Alter table Emp                       --For changing varchar size  to 50 i have used alter command
 Alter  COLUMN Ename varchar(50)
 Alter table Emp
 Alter  COLUMN job varchar(50)
@@ -59,7 +59,7 @@ select * from DEPT              --Fetching details of DEPT
 sp_help DEPT                    --Describing DEPT table
 
                             
-							    Assignment-2   (QUERIES)
+				Assignment-2   (QUERIES)
 
 
 select Ename from Emp where ename like 'A%'     --1.fetching employeee name starting with A
