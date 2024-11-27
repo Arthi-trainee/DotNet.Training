@@ -1,0 +1,7 @@
+C:\arthi_1\C Sharp-Assessments\Assessment-4\Assessment-4\bin\Debug\Assessment-4.exe.config
+C:\arthi_1\C Sharp-Assessments\Assessment-4\Assessment-4\bin\Debug\Assessment-4.exe
+C:\arthi_1\C Sharp-Assessments\Assessment-4\Assessment-4\bin\Debug\Assessment-4.pdb
+C:\arthi_1\C Sharp-Assessments\Assessment-4\Assessment-4\obj\Debug\Assessment-4.csproj.AssemblyReference.cache
+C:\arthi_1\C Sharp-Assessments\Assessment-4\Assessment-4\obj\Debug\Assessment-4.csproj.CoreCompileInputs.cache
+C:\arthi_1\C Sharp-Assessments\Assessment-4\Assessment-4\obj\Debug\Assessment-4.exe
+C:\arthi_1\C Sharp-Assessments\Assessment-4\Assessment-4\obj\Debug\Assessment-4.pdb
