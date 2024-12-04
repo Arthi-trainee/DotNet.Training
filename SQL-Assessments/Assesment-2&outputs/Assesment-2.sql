@@ -50,6 +50,8 @@ create Function Calculate_Bonus                 -- 5.creating a function calcuLA
   return @bonus;
   end;
 
+     select empno, ename,dbo.Calculate_Bonus(deptno,sal) as BONUS from emp     ---calling bonus function
+
 
   create procedure  Sal_update_in_Sales_dept                    --6.creating a procedure and performing updations
   as
