@@ -23,11 +23,12 @@ values(1,'Arthi',6000,'16-OCT-2000'),
 update employee 
 set sal=sal+(sal*0.15)
 where empno=2
-
+save tran transaction1
 delete from employee 
 where empno=1
 
-rollback
+
+rollback transaction1
 
 commit
    
