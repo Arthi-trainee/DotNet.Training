@@ -62,5 +62,5 @@ BEGIN
 		rollback transaction
     END 
 END
-update Emp set Sal=1000 where EmpNo=7788
+update Emp set ename='Arthitej' where EmpNo=7067
 select * from emp
