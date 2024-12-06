@@ -13,13 +13,14 @@ declare @Deduction float
 declare @Gross_Salary float
 declare @Net_Salary float
 select @Ename=EName,@Sal=Sal from Emp where EmpNo=@EmpId
-set @HRA=@sal*0.10
-set @DA=@sal*0.20
-set @PF=@sal*0.08
-set @IT=@sal*0.05
-set @Deduction=@PF+@IT
-set @Gross_Salary=@sal+@HRA+@DA
-set @Net_Salary=@Gross_Salary-@Deduction
+set @HRA=@sal*0.10   --HRA as 10% of salary
+set @DA=@sal*0.20    --DA as 20 % of salary
+set @PF=@sal*0.08    --PF as 8% of salary
+set @IT=@sal*0.05    --IT as 5% of salary
+set @Deduction=@PF+@IT  --Deductions as sum of PF and IT
+set @Gross_Salary=@sal+@HRA+@DA --Gross Salary as sum of Salary, HRA, DA
+set @Net_Salary=@Gross_Salary-@Deduction--Net Salary as Gross Salary - Deductions
+
 print 'Payslip for Employee : ' +@Ename
 print 'Basic Salary : '+cast(@Sal as varchar(10))
 print 'HRA : ' +cast(@HRA as varchar(10))
