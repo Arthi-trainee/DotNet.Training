@@ -1,0 +1,7 @@
+C:\arthi_1\SQL-Assessments\Assesment-3 & Outputs\Procedure\Procedure\bin\Debug\Procedure.exe.config
+C:\arthi_1\SQL-Assessments\Assesment-3 & Outputs\Procedure\Procedure\bin\Debug\Procedure.exe
+C:\arthi_1\SQL-Assessments\Assesment-3 & Outputs\Procedure\Procedure\bin\Debug\Procedure.pdb
+C:\arthi_1\SQL-Assessments\Assesment-3 & Outputs\Procedure\Procedure\obj\Debug\Procedure.csproj.AssemblyReference.cache
+C:\arthi_1\SQL-Assessments\Assesment-3 & Outputs\Procedure\Procedure\obj\Debug\Procedure.csproj.CoreCompileInputs.cache
+C:\arthi_1\SQL-Assessments\Assesment-3 & Outputs\Procedure\Procedure\obj\Debug\Procedure.exe
+C:\arthi_1\SQL-Assessments\Assesment-3 & Outputs\Procedure\Procedure\obj\Debug\Procedure.pdb
