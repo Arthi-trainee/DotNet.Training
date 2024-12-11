@@ -40,9 +40,7 @@ begin
 end
 
 select * from ProductsDetails;
-Declare @Update__id int;
-execute @Update__id=update_ID 'shampoo',20
-select 'updated id will be' + cast(@Update__id as varchar);
+
 
 
 
