@@ -48,7 +48,7 @@ select * from ProductsDetails;
 
 create table ProductDetails
 (
-productId int primary key,
+productId int  Identity(1,1) primary key,
 ProductName varchar(15),
 price float,
 DiscountedPrice as  (price-(price*0.1)));
