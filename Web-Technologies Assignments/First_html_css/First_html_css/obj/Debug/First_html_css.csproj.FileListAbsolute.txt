@@ -1,0 +1,7 @@
+C:\arthi_1\Web-Technologies Assignments\First_html_css\First_html_css\bin\Debug\First_html_css.exe.config
+C:\arthi_1\Web-Technologies Assignments\First_html_css\First_html_css\bin\Debug\First_html_css.exe
+C:\arthi_1\Web-Technologies Assignments\First_html_css\First_html_css\bin\Debug\First_html_css.pdb
+C:\arthi_1\Web-Technologies Assignments\First_html_css\First_html_css\obj\Debug\First_html_css.csproj.AssemblyReference.cache
+C:\arthi_1\Web-Technologies Assignments\First_html_css\First_html_css\obj\Debug\First_html_css.csproj.CoreCompileInputs.cache
+C:\arthi_1\Web-Technologies Assignments\First_html_css\First_html_css\obj\Debug\First_html_css.exe
+C:\arthi_1\Web-Technologies Assignments\First_html_css\First_html_css\obj\Debug\First_html_css.pdb
