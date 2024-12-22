@@ -1,0 +1,7 @@
+C:\arthi_1\Mini_Project\Mini_Project_Main\Mini_Project_Main\bin\Debug\Mini_Project_Main.exe.config
+C:\arthi_1\Mini_Project\Mini_Project_Main\Mini_Project_Main\bin\Debug\Mini_Project_Main.exe
+C:\arthi_1\Mini_Project\Mini_Project_Main\Mini_Project_Main\bin\Debug\Mini_Project_Main.pdb
+C:\arthi_1\Mini_Project\Mini_Project_Main\Mini_Project_Main\obj\Debug\Mini_Project_Main.csproj.AssemblyReference.cache
+C:\arthi_1\Mini_Project\Mini_Project_Main\Mini_Project_Main\obj\Debug\Mini_Project_Main.csproj.CoreCompileInputs.cache
+C:\arthi_1\Mini_Project\Mini_Project_Main\Mini_Project_Main\obj\Debug\Mini_Project_Main.exe
+C:\arthi_1\Mini_Project\Mini_Project_Main\Mini_Project_Main\obj\Debug\Mini_Project_Main.pdb

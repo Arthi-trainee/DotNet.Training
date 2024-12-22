@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C211DF4A-29BB-4B79-9C97-C7CF91335D51}</ProjectGuid>
+    <ProjectGuid>{60546AF8-F02C-45CB-96AE-862AF0EED9E5}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>JavaScript_task</RootNamespace>
-    <AssemblyName>JavaScript_task</AssemblyName>
+    <RootNamespace>Mini_Project_Main</RootNamespace>
+    <AssemblyName>Mini_Project_Main</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,16 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin.cs" />
+    <Compile Include="Admin_Functionalities.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="User.cs" />
+    <Compile Include="User_Functionalities.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Add_listener.html" />
-    <Content Include="Check_even_or_odd.html" />
-    <Content Include="Mul_Div .html" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
