@@ -15,9 +15,9 @@ namespace TrainReservationSystem
                 Console.WriteLine("\nAdmin Menu");
                 Console.WriteLine("1. Add Train\n2. Modify Train\n3. Delete Train \n4. Exit");
                 Console.Write("Choose an option: ");
-                int choice = Convert.ToInt32(Console.ReadLine());
+                int res = Convert.ToInt32(Console.ReadLine());
 
-                switch (choice)
+                switch (res)
                 {
                     case 1:
                         TrainService.AddTrain();

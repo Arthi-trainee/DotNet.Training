@@ -36,13 +36,14 @@ VALUES
 (12755, 'Chennai Express', 10, 10, 20, 20, 30, 30, 40, 40, 5, 5,
 'Chennai', 'Delhi', 1, 3500.00, 2500.00, 1500.00, 4000.00, 800.00,
 '2024-12-25', '18:00:00');
- 
-
-INSERT INTO Trains
+ INSERT INTO Trains
 VALUES
-(12756, 'Delhi Express', 12, 12, 18, 18, 25, 25, 50, 50, 6, 6,
-'Delhi', 'Chennai', 1, 3600.00, 2600.00, 1600.00, 4200.00, 850.00,
-'2024-12-26', '19:00:00');
+(1806331, 'Delhi Express', 12, 12, 18, 18, 25, 25, 50, 50, 6, 6,
+'Delhi', 'Banglore', 1, 3600.00, 2600.00, 1600.00, 4200.00, 850.00,
+'2024-12-27', '11:00:00');
+
+
+
 select*from trains
 select*from bookings
 
@@ -211,8 +212,8 @@ END;
 ---------------------------------------------------------------------------------------------------------------------------------------------
 CREATE OR ALTER PROCEDURE BookTicket 
     @TrainNo INT, 
-    @PassengerName NVARCHAR(100), 
-    @Class NVARCHAR(20), 
+    @PassengerName VARCHAR(100), 
+    @Class VARCHAR(20), 
     @BerthsBooked INT, 
     @JourneyDate DATE, 
     @TrainDate DATE, 
@@ -283,62 +284,83 @@ BEGIN
         UPDATE Trains SET AvailableSleeper = AvailableSleeper - @BerthsBooked WHERE TrainNo = @TrainNo;
  
    
-    PRINT 'Booking successful. Total ticket cost: ' + CAST(@TotalCost AS NVARCHAR(50));
+    PRINT 'Booking successful. Total ticket cost: ' + CAST(@TotalCost AS VARCHAR(50));
 END;
  
  
 ------------------------------------------------------------------------------------------------------------------------
-CREATE OR ALTER PROCEDURE CancelTicket
-    @BookingID INT
+CREATE OR ALTER PROCEDURE CancelTicket 
+    @BookingID INT, 
+    @RefundAmount DECIMAL OUTPUT
 AS
 BEGIN
-    
-    DECLARE @TrainNo INT, @Class VARCHAR(20), @BerthsBooked INT, @Status VARCHAR(20);
+    DECLARE @TrainNo INT, 
+            @Class VARCHAR(20), 
+            @BerthsBooked INT, 
+            @Status VARCHAR(20), 
+            @TotalCost DECIMAL;
  
     
-    SELECT
-        @TrainNo = TrainNo,
-        @Class = Class,
-        @BerthsBooked = BerthsBooked,
-        @Status = Status
-    FROM Bookings
+    SELECT @TrainNo = TrainNo, 
+           @Class = Class, 
+           @BerthsBooked = BerthsBooked, 
+           @Status = Status, 
+           @TotalCost = TotalCost
+    FROM Bookings 
     WHERE BookingID = @BookingID;
  
-    
+   
     IF @Status = 'Booked'
     BEGIN
         
-        IF @Class = '1A'
-        BEGIN
-            UPDATE Trains SET Available1A = Available1A + @BerthsBooked WHERE TrainNo = @TrainNo;
+        IF @Class = '1A' 
+        BEGIN 
+            UPDATE Trains 
+            SET Available1A = Available1A + @BerthsBooked 
+            WHERE TrainNo = @TrainNo; 
         END
-        ELSE IF @Class = '2A'
-        BEGIN
-            UPDATE Trains SET Available2A = Available2A + @BerthsBooked WHERE TrainNo = @TrainNo;
+        ELSE IF @Class = '2A' 
+        BEGIN 
+            UPDATE Trains 
+            SET Available2A = Available2A + @BerthsBooked 
+            WHERE TrainNo = @TrainNo; 
         END
-        ELSE IF @Class = '3A'
-        BEGIN
-            UPDATE Trains SET Available3A = Available3A + @BerthsBooked WHERE TrainNo = @TrainNo;
+        ELSE IF @Class = '3A' 
+        BEGIN 
+            UPDATE Trains 
+            SET Available3A = Available3A + @BerthsBooked 
+            WHERE TrainNo = @TrainNo; 
         END
-        ELSE IF @Class = 'First Class'
-        BEGIN
-            UPDATE Trains SET AvailableFirstClass = AvailableFirstClass + @BerthsBooked WHERE TrainNo = @TrainNo;
+        ELSE IF @Class = 'First Class' 
+        BEGIN 
+            UPDATE Trains 
+            SET AvailableFirstClass = AvailableFirstClass + @BerthsBooked 
+            WHERE TrainNo = @TrainNo; 
         END
-        ELSE IF @Class = 'Sleeper'
-        BEGIN
-            UPDATE Trains SET AvailableSleeper = AvailableSleeper + @BerthsBooked WHERE TrainNo = @TrainNo;
+        ELSE IF @Class = 'Sleeper' 
+        BEGIN 
+            UPDATE Trains 
+            SET AvailableSleeper = AvailableSleeper + @BerthsBooked 
+            WHERE TrainNo = @TrainNo; 
         END
  
         
-        UPDATE Bookings SET Status = 'Cancelled' WHERE BookingID = @BookingID;
+        UPDATE Bookings 
+        SET Status = 'Cancelled' 
+        WHERE BookingID = @BookingID;
+ 
+        
+        SET @RefundAmount = @TotalCost * 0.85;
  
         PRINT 'Cancellation successful.';
     END
     ELSE
     BEGIN
         PRINT 'Cancellation failed. Booking not found or already cancelled.';
+        SET @RefundAmount = 0;
     END
 END;
+ 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 CREATE OR ALTER PROCEDURE ShowAllTrains
 AS
@@ -362,22 +384,25 @@ BEGIN
     ORDER BY
         TrainNo;  
 END;
+
+exec   ShowAllTrains;
 ----------------------------------------------------------------------------------------------------------------------
-CREATE OR ALTER PROCEDURE ShowAllBookings
+CREATE or alter PROCEDURE ShowAllBookings
+
 AS
+
 BEGIN
-    SELECT
-        BookingID,
-        TrainNo,
-        PassengerName,
-        Class,
-        BerthsBooked,
-        JourneyDate,
-        Status
+
+    SELECT BookingID, TrainNo, PassengerName, Class, BerthsBooked, JourneyDate, Status
+
     FROM Bookings
+
     ORDER BY JourneyDate DESC;
+
 END
+ 
+exec ShowBookings
 
 
 
-
+select * from Bookings;

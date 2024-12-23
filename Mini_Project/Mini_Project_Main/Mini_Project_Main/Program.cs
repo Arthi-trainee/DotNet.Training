@@ -8,7 +8,7 @@ namespace TrainReservationSystem
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Train Reservation System");
+            Console.WriteLine("Train Reservation System");
 
             while (true)
             {
