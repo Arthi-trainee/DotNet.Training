@@ -16,11 +16,13 @@ namespace MVC_DBFirst.Controllers
         {
             return View();
         }
+        //1.Customers in germany
         public ActionResult CustomersInGermany()
         {
             var customer1 = db.Customers.Where(c => c.Country == "Germany").ToList();
             return View(customer1);
         }
+        //2.customers with Orderid 10248
         public ActionResult CustomerDetails()
         {
             var customer2 = db.Orders.Where(o => o.OrderID == 10248).Select(o => o.Customer).FirstOrDefault();
