@@ -1,0 +1,2 @@
+C:\arthi_1\MVC-Assesments\Assesment-1\task-1\task-1\obj\Debug\task-1.csproj.AssemblyReference.cache
+C:\arthi_1\MVC-Assesments\Assesment-1\task-1\task-1\obj\Debug\task-1.csproj.CoreCompileInputs.cache
